@@ -2,7 +2,7 @@
 <html>
 <body onload="myFunction()">
 <script>
-	var url_parser = window.location.href.split("?")
+	var url_parser = window.location.href.split("/")
 
 	function myFunction() {
 	  location.replace("http://110.12.246.106:8000/" + url_parser[url_parser.length - 1])
